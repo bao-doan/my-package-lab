@@ -1,0 +1,25 @@
+@import '../node_modules/leaflet.awesome-markers/dist/leaflet.awesome-markers.css';
+@import '../node_modules/leaflet/dist/leaflet.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+#demo_canvas {
+  width: 500px;
+  height: 300px;
+  // border: 1px solid #f00;
+}
+#maps {
+  width: 500px;
+  height: 300px;
+  // border: 1px solid #f00;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+.m-chart {
+  display: block;
+  height: 100%;
+}
+.m-transition {
+  transition: .3s ease;
+}
