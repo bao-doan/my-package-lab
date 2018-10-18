@@ -1,2 +1,18 @@
-<h5>Leaflet.js</h5>
-<div id="maps" class=""></div>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h5>Leaflet.js</h5>
+      <button #trigger (click)="getSth()">Get</button>
+      <P>{{ getSth() }}</P>
+      <br>
+      <!-- <form> -->
+        <input #lat [value]="getSth().lat" type="number" placeholder="Lat">
+        <input #lng [value]="getSth().lng" type="number" placeholder="Lng">
+        <button (click)="setSth(lat.value, lng.value)">Set Latlng</button>
+      <!-- </form> -->
+    </div>
+  </div>
+  <div class="col-6">
+    <div id="maps" class=""></div>
+  </div>
+</div>
